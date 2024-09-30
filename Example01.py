@@ -1,8 +1,19 @@
-def add():
-    print (10+5)
-    print(10-5)
-    print(10*5)
-    print(10/5)
-add()
+a,b=10,5
 
+def add():
+    print (a+b)
+
+def sub():
+    print(a-b)
+
+def mul():
+    print(a*b)
+
+def div():
+    print(a/b)
+
+add()
+sub()
+mul()
+div()
 
