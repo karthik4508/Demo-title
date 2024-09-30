@@ -1,19 +1,22 @@
-a,b=10,5
+class Test:
+    a,b=10,5
 
-def add():
-    print (a+b)
+    def add(self):
+        print (self.a+self.b)
 
-def sub():
-    print(a-b)
+    def sub():
+        print(self.a-self.b)
 
-def mul():
-    print(a*b)
+    def mul():
+        print(self.a*self.b)
 
-def div():
-    print(a/b)
+    def div():
+        print(self.a/self.b)
 
-add()
-sub()
-mul()
-div()
+if __name__ == "__main__":
+    t = Test()
+    t.add()
+    t.sub()
+    t.mul()
+    t.div()
 
